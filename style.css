@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10rem;
+    width: 100%;
+  }
+  .list-item{
+    margin:19px;
+    font-family: 'Poppins';
+  }
+
+.list{
+    display: flex;
+    list-style: none;
+    /* justify-content: space-between; */
+    margin-left: -570px;
+    color: rgb(199, 187, 187);
+} 
+[alt="brand-logo"]{
+    margin:100px;
+   width: 6rem; 
+}
+.button-group .nav-button{
+  padding: 10px 15px;
+  margin-right: 75px;
+  border: none;
+  color: white;
+  font-weight: 5px;
+  font-size: 15px;
+  border-radius: 6px;
+  background-color: rgb(91, 15, 213);
+}
+.banner-container{
+    display: flex;
+    flex-direction: column;
+    margin: 90px;
+    justify-content: center;
+    align-items: center;
+}
+[alt="illustration"]{
+    position: absolute;
+    left:590px;
+    top:149px;
+   
+  margin-left: 20px;
+    width:921px;
+    height: 550px;
+    right: 0px;
+}
+.heading-text{
+    /* align-items: center;
+    justify-content: center; */
+    text-align: left;
+    font-size: 65px;
+    font-family: 'Poppins';
+    margin-top: -50px;
+    margin-right: 810px;
+    font-weight:550;
+}
+.description{
+    font-size: small;
+    color: rgb(199, 187, 187);
+    margin-right: 510px;
+    font-family: 'Poppins';
+    margin-right: 1030px;
+    margin-top: 10px;
+    
+}
+.btn{
+    background-color: rgb(91, 15, 213);
+    color: white;
+    font-weight: bold;
+    margin-top: 50px;
+    padding: 20px 33px;
+    border-radius: 10px;
+    border: none;
+}
+span{
+    color: rgb(91, 15, 213);
+}
+#homeblack{
+    color: black; 
+}
